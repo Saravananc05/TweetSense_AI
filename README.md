@@ -99,33 +99,13 @@ git clone https://github.com/YOUR_USERNAME/TweetSense-AI.git
 cd TweetSense-AI
 ```
 
-### 3. Create a virtual environment (Optional)
-
-```bash
-python -m venv venv
-```
-
-### 4. Activate virtual environment
-
-Windows
-
-```bash
-venv\Scripts\activate
-```
-
-Linux / Mac
-
-```bash
-source venv/bin/activate
-```
-
-### 5. Install the required dependencies
+### 3. Install the required dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 6. Train the model
+### 4. Train the model
 
 ```bash
 python train_model.py
@@ -139,14 +119,13 @@ model/
 └── vectorizer.pkl
 ```
 
-### 7. Run the Streamlit application
+### 5. Run the Streamlit application
 
 ```bash
 streamlit run app.py
 ```
 
 ---
-
 
 ## Author
 
